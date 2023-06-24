@@ -152,11 +152,10 @@ main > h1 {
 
 .container-interno-txt > p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-size: 150%;
     width: 80%;
     text-align: justify;
     margin-top: 20px;
-    font-size: 23px;
 }
 
 
@@ -166,7 +165,7 @@ main > h1 {
     justify-content: center;
     align-items: center;
     gap: 2em;
-    height: 80%;
+    height: 65%;
     width: 90%;
     margin: auto;
     margin-top: 70px;
@@ -174,11 +173,14 @@ main > h1 {
     
 }
 
-.section-produtos > h2 {
+.section-produtos h2 {
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 6px;
     border-bottom: 3px solid rgb(0, 0, 0);
-}   
+}
+
+
 
 .conjunto-produtos {
     display: flex;
@@ -189,6 +191,7 @@ main > h1 {
     height: 100%;
     width: 100%;
     background-color: rgb(0, 0, 0);
+    border-radius: 20px;
 
 }
 
@@ -197,20 +200,47 @@ main > h1 {
     height: 100%;
     width: 25%;
     left: 0%;
-    background-color:#EBBC80;
+    background-color:rgba(235, 179, 97, 0.884);
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
     gap: 2em;
     padding: 20px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.produtos-tijolo {
+    position: absolute;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+ 
 }
 
 .produtos-tijolo > img {
-    background-color: rgba(255, 255, 255, 0.384);
+    background-color: rgba(255, 255, 255, 0.664);
     border-radius:20px;
-    height: 40%;
+    height: 35%;
     width: 40%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.produtos-tijolo > h3 {
+    display: block;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 70%;
+    padding: 3px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.produtos-tijolo p {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 100%;
 }
 
 .produtos-telha {
@@ -218,9 +248,9 @@ main > h1 {
     height: 100%;
     width: 25%;
     left: 25%;
-    background-color: rgb(212, 209, 209);
+    background-color: rgba(235, 179, 97, 0.884);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2em;
@@ -228,18 +258,48 @@ main > h1 {
 
 }
 
+.produtos-telha > img {
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius:20px;
+    height: 35%;
+    width: 40%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.produtos-telha > h3 {
+    display: block;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 70%;
+    padding: 3px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.produtos-telha p {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
 .produtos-lajota {
     position: absolute;
     height: 100%;
     width: 25%;
     left: 50%;
-    background-color: #EBBC80;
+    background-color: rgba(235, 179, 97, 0.884);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2em;
     padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 .produtos-tijolinho {
@@ -247,13 +307,15 @@ main > h1 {
     height: 100%;
     width: 25%;
     left: 75%;
-    background-color: rgb(212,209,209);
+    background-color: rgba(235, 179, 97, 0.884);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2em;
     padding: 20px;
+    border-radius: 0px 20px 20px 0px;
+    border: 2px solid rgb(0, 0, 0);
 }
 
 
