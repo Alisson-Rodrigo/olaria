@@ -6,15 +6,22 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
+
 header {
     display: flex;
-    background-color: #00709E;
-    height: 60px;
-    position: fixed;
+    background-color: #ce9a29;
     top: 0;
     width: 100%;
-    height: 15%;
+    height: 140px;
     font-size: 20px;
+}
+
+.img-header {
+    height: 100%;
+    border-radius: 50%;
 }
 
 header {
@@ -23,7 +30,16 @@ header {
 
 }
 
+.menu-usuario {
+    height: 40px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
 
+.menu-usuario:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
 
 .menu-principal > a {
     text-decoration: none;
@@ -36,4 +52,212 @@ header {
     color: white;
     text-decoration: none;
     padding: 10px;
+    transition: 1s;
 }
+
+.opcoes-menu:hover {
+    transition: 1s;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+main > h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+.section-desc {
+    color: rgb(0, 0, 0);
+    height: 50%;
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.section-desc > h2 {
+    padding: 10px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.section-desc > p {
+    font-size: 20px;
+    display: block;
+    width: 60%;
+    text-align: justify;
+    
+}
+
+.section-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2em;                               
+}
+
+.container {
+    position: relative;
+    background-color: rgb(6, 1, 10);
+    height: 80%;
+    width: 100%;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.container-interno-img {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 50%;
+    background-image: url(img/trabalhador-feliz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: 1px solid rgb(0, 0, 0);
+    border-width: 2px;
+    
+}
+
+.container-interno-txt {
+    position: absolute;
+    left: 50%;
+    background-color: #ebbc80;
+    height: 100%;
+    width: 50%;
+    border-left: 1px solid rgb(3, 3, 3);
+    border-width: 2px;
+}
+
+.container-interno-txt {
+    display: flex;
+    color: rgb(5, 5, 5);
+    flex-direction: column;
+    gap: 2em;
+    justify-content: top;
+    align-items: center;
+    padding: 20px;
+}
+
+.container-interno-txt > h2 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.container-interno-txt > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    width: 80%;
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 23px;
+}
+
+
+.section-produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    margin-top: 70px;
+    padding: 50px;
+    
+}
+
+.section-produtos > h2 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}   
+
+.conjunto-produtos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.produtos-tijolo {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 0%;
+    background-color:#EBBC80;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 2em;
+    padding: 20px;
+}
+
+.produtos-tijolo > img {
+    background-color: rgba(255, 255, 255, 0.384);
+    border: 50px;
+    height: 40%;
+    width: 40%;
+}
+
+.produtos-telha {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 25%;
+    background-color: rgb(212, 209, 209);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 20px;
+
+}
+
+.produtos-lajota {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 50%;
+    background-color: #EBBC80;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 20px;
+}
+
+.produtos-tijolinho {
+    position: absolute;
+    height: 100%;
+    width: 25%;
+    left: 75%;
+    background-color: rgb(212,209,209);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 20px;
+}
+
+
+
+
+
+
