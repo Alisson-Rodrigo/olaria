@@ -424,3 +424,11 @@ footer {
     height: 200px;
     margin-top: 100px;
 }
+
+.img-git-hub {
+    height: 95px;
+    width: 90px;
+    border-radius: 50%;
+    transition: 0.5s;
+
+}
