@@ -412,17 +412,11 @@ main > h1 {
 }
 
 .img-contatos p {
-    color: rgb(37, 36, 36);
+    color: rgb(0, 0, 0);
 }
 
 .img-contatos h3 {
     color: rgb(0, 0, 0);
-}
-
-footer {
-    background-color: black;
-    height: 200px;
-    margin-top: 100px;
 }
 
 .img-git-hub {
@@ -431,4 +425,45 @@ footer {
     border-radius: 50%;
     transition: 0.5s;
 
+}
+
+.img-email {
+    height: 110px;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+    margin-top: 150px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+
+}
+
+footer > p {
+    font-size: 1.2em;
+}
+
+.termos-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.termos-footer > a {
+    color: rgb(109, 105, 105);
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.termos-footer > a:hover {
+    color: white;
+    transition: 0.5s;
 }
